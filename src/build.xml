@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!--
+
+			  WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here,
+              simply create one in the same
+              directory with the processing instruction 
+              <?eclipse.ant.import?>
+              as the first entry and export the buildfile again.
+               
+-->
+<project name="User Registration" default="create-war" basedir=".">
+	<property name="User_Registration_War" value="UserReg.war" />
+
+	<target name="copy" depends="">
+		<copydir src="" dest="">
+		</copydir>
+	</target>
+
+	<target name="compile">
+		<javac srcdir="">
+		</javac>
+	</target>
+
+	<target name="create-war"  depends="">
+		<war destfile="${User_Registration_War}">
+			<fileset dir="" includes="**/*" />
+			<exclude name="web.xml"/>
+			<!-- <exclude name="WEB-INF/src/**"/>   -->
+		</war>
+
+		<echo>war file created..</echo>
+	</target>
+
+</project>
